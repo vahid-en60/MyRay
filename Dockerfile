@@ -28,4 +28,4 @@ RUN wget -q -O /tmp/v2ray-linux-64.zip https://github.com/v2fly/v2ray-core/relea
     rm -rf /var/cache/apk/* && \
     rm -rf /tmp/*
     
-ENTRYPOINT [ "/usr/local/v2ray/entrypoint.sh" ]
+ENTRYPOINT [ "/usr/local/v2ray/entrypoint.sh" ] 
